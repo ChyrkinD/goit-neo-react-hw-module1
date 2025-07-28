@@ -1,0 +1,25 @@
+.transactionHistory {
+    border-collapse: collapse;
+    text-align: center;
+
+    thead {
+        background-color: black;
+        color: white;
+
+        th {
+            min-width: 150px;
+        }
+    }
+
+    tbody {
+        tr {
+            &:nth-child(even) {
+                background-color: #d3d3d3;
+            }
+        }
+    }
+
+    td {
+        border: 1px solid black;
+    }
+}
